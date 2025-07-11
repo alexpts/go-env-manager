@@ -39,8 +39,8 @@ func ApplyConfig(config Config) {
 	}{
 		{"GOPRIVATE", config.GoPrivate},
 		{"GOPROXY", config.GoProxy},
-		{"GOSUMDB", config.GoSumDB},
-		{"GONOSUMDB", config.GoSumDB},
+		{"GONOPROXY", config.GoNoProxy},
+		{"GONOSUMDB", config.GoNoSumDB},
 		{"GOSUMDB", config.GoSumDB},
 	}
 
